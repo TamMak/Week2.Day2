@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get data from mongodb</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Data retrived!></h1>
+    <p>This is my first Express work</p>
+   
+
+	<h2>Loop inventories</h2>
+		<ul> 
+			First Name   Type   message
+	    <% items.forEach(function(item) { %>
+	        <li><%= item.fullName %>-------<%= item.type %>------<%= item.message%></li>
+	    <% }); %>
+	</ul>
+  
+    
+    
+  </body>
+</html>

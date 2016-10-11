@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    
+    <p>Contact us form.</p>
+  
+	<form action="/insertData" method="post">
+	  Full name:  <input type="text" name="fullname" value="">
+	  </br>
+	  Type: </br>
+	       <textarea rows="2" cols="50" name ="type"> </textarea>
+	  <br><br> 
+	  Message: </br>
+	       <textarea rows="4" cols="50" name ="message"> </textarea>
+	  <br><br>
+	  
+	  <input type="submit" value="Submit">
+	</form>
+	
+    
+  </body>
+</html>
